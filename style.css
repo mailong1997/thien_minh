@@ -30,16 +30,28 @@ body {
     position: sticky;
     top: 0;
     height: 55px;
-    background-color: #9b2727;
 }
 
 #gourmer-button{
+    position: relative;
+    top: 10px;
     width: 235px;
+    height: 38px;
+}
+#gourmer-button a {
+    color:rgb(11, 11, 11);
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+#gourmer-button a:hover {
+    background-color: rgb(134, 140, 146);
 }
 
 ul {
     position: relative;
-    top: -30px;
+    top: -35px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -55,7 +67,17 @@ li a {
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
-    background-color: blue;
+    color:black;
 }
 
+li a:hover {
+    background-color: rgb(134, 140, 146);
+}
 
+#le-catering {
+    position:relative ;
+    top: -100px;
+    width: 273px;
+    height: 98px;
+    background-color: red;
+}
